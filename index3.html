@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<Head>
+    <title>Suggestions!</title>
+    <link rel="stylesheet" href="styles3.css">
+</Head>
+<nav class="Navbar">
+    <ul>
+      <Li><a href="index.html">Home</a></Li> <!--Homepage-->
+      <Li><a href="index2.html">Musical list</a></Li> <!--This has a page -->
+      <Li><a href="index3.html">Suggestions</a></Li> <!--This has a page-->
+    </ul>
+  </nav>
+  <br><br>
+  <h1>Please leave Suggestions here!</h1>
+<body>
+    <form>
+        <label for="full name">Enter your FULL name:</label>
+        <input type="text" name="full name" id="full name" placeholder="full name" required>
+        <br>
+        <label for="email">Enter your EMAIL adress:</label>
+        <input type="email" name="email" id="email" placeholder="email" required>
+        <br>
+        <p>Select you AGE range</p>
+        <input type="radio" name="age" id="ages 5-9">
+        <lable for="option 1">ages 5-9</lable> <br>
+        <input type="radio" name="age" id="ages 10-14">
+        <lable for="option 2">ages 10-14</lable> <br>
+        <input type="radio" name="age" id="ages 15-19">
+        <lable for="option 3">ages 15-19</lable> <br>
+        <br>
+        <p>Favourite musical page:</p>
+        <label for="question">Favourite musical page:</label>
+        <select name="question" id="question">
+            <option value="q1">Hamilton</option>
+            <option value="q2">Sweeney Todd</option>
+            <option value="q3">Newsies</option>
+            <option value="q3">In the heights</option>
+            <option value="q3">Mary Poppins</option>
+        </select>
+        <br>
+        <label for="answer">Why:</label>
+        <input type="text" name="answer" id="answer">
+        <br><br>
+        <label for="bio"> Enter your Suggestions...</label><br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Suggestions"></textarea>
+        <br><br>
+        <label for="date">CURRENT date</label>
+        <input type="date" name="date" id="date">
+        <br>
+        <input type="submit" name="submit" id="submit">
+        <input type="reset" name="reset" id="reset">
+    </form>
+</body>
+</html>
